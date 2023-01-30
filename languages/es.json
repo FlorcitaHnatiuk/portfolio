@@ -1,0 +1,39 @@
+{
+    "menu": {
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item5": "Proyectos"
+    },
+
+    "home": {
+        "home_text-1": "Hola! Soy",
+        "home_text-3": "Desarrolladora web Full stack",
+        "parrafo-info": "Soy estudiante de programación y quiero que me conozcas un poquito!",
+        "cv_button": "Descargar CV"
+    },
+
+    "sobre-mi": {
+        "title": "Sobre mí",
+        "texto_sobreMi": "En el 2021 me dió intriga el mundo de la programación y empecé a estudiar de manera autodidáctica. Al poquito tiempo me dí cuenta que me encantaba! Dos años después de elegir este camino, busco un empleo que me permita seguir aprendiendo, adquirir experiencia y fortalecer mi desarrollo profesional. Soy una persona empática, emprendedora y proactiva, con habilidades que me hacen disfrutar del trabajo en equipo. Soy responsable y perseverante, y siempre busco superarme a mi misma."
+    },
+
+    "habilidades": {
+        "title": "Habilidades"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        "title-proyecto1": "Moov",
+        "info-proyecto1": "Proyecto realizado para el curso de backend de Coderhouse, en el cual implementé MERN stack.",
+        "title-proyecto2": "Drum kit",
+        "info-proyecto2": "Mini proyecto de simulación de una batería, en la que podrás usar tanto las teclas correspondientes a cada letra como hacer click en la pantalla.",
+        "title-proyecto3": "Simon Says",
+        "info-proyecto3": "Juego para ejercitar la memoria realizado en Javascript.",
+        "title-proyecto4": "Qhipa Verde",
+        "info-proyecto4": "Este proyecto está realizado en React y lo realicé junto con un compañero gracias a que ambos quedamos en el Top 10 en Coderhouse.",
+        "title-proyecto5": "TB Agente Comercial",
+        "info-proyecto5": "Proyecto realizado junto con un compañero por quedar dentro del Top 10 en Coderhouse, en base a un diseño UX/UI que se nos brindó.",
+        "title-proyecto6": "La vinería",
+        "info-proyecto6": "Mi primer proyecto en ReactJS realizado para el curso en Coderhouse."
+    }
+}

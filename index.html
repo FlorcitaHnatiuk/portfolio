@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Florencia Hnatiuk | desarrolladora fullstack | tester QA">
+    <meta name="robots" content="index,follow">
+
+    <title>Flor Hnatiuk | Desarrolladora Web Full stack</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./assets/images/logo.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
+
+            <!-- Idiomas de la página -->
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/images/icono-español.png" alt="Español/Spain">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/images/icono-ingles.png" alt="Inglés/English">
+                </div>
+            </div>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/image-home.png" alt="Ilustración mujer y plantas">
+            </picture>
+
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hola! soy...</p>
+                    <p class="home_text-2" data-value="home_text-1">Flor Hnatiuk</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Desarrolladora web
+                        Fullstack</p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">Soy estudiante de programación y quiero que me
+                        conozcas un poquito!</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="https://drive.google.com/drive/folders/1axbci1yRFvnViBSSJfkNWOPLbFuB6k13" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/florenciahnatiuk/" target="_blank">
+                    <img src="./assets/images/logo-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/FlorcitaHnatiuk" target="_blank">
+                    <img src="./assets/images/logo-gh.png" alt="GitHub" class="icon-github">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title">Sobre mí</h1>
+
+            <div class="container_content-sobreMi">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Florencia Hnatiuk</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">En el 2021 me dió
+                        intriga el mundo de la programación y empecé a estudiar de manera autodidáctica. Al poquito
+                        tiempo me dí cuenta que me encantaba! <br>Dos años después de elegir este camino, busco un
+                        empleo que me permita seguir aprendiendo, adquirir experiencia y fortalecer mi desarrollo
+                        profesional. <br> Soy una persona empática, emprendedora y proactiva, con habilidades que me
+                        hacen disfrutar del trabajo en equipo. Soy responsable y perseverante, y siempre busco superarme
+                        a mi misma.</span>
+                </div>
+
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./assets/images/image-cafe.png" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title">Habilidades</h1>
+
+            <img src="./assets/images/flores.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/flores.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/logo-html5.png" alt="Icono de HTML">
+                    <p>HTML 5</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/logo-css.png" alt="Icono de CSS">
+                    <p>CSS 3</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/logo-js.png" alt="Icono de JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/logo-react.png" alt="Icono de React JS">
+                    <p>React JS</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/logo-node.png" alt="Icono de Node JS">
+                    <p>Node JS</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/logo-mongo.png" alt="Icono de MongoDB">
+                    <p>MongoDB</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/logo-python.png" alt="Icono de Python">
+                    <p>Python</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/logo-django.png" alt="Icono de Django">
+                    <p>Django</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/logo-git.png" alt="Icono de Git">
+                    <p>Git</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/logo-github.png" alt="Icono de GitHub">
+                    <p>Github</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/logo-jira.png" alt="Icono de Jira">
+                    <p>Jira</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/logo-jenkins.png" alt="Icono de Jenkins">
+                    <p>Jenkins</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title">Mi formación</h1>
+
+            <img src="./assets/images/flores.png" alt="Decoración flores" class="puntos1-proyectos">
+            <img src="./assets/images/flores.png" alt="Decoración flores" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/titulo-desarrollo.png" alt="Titulo desarrollo web">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <p data-section="proyectos" data-value="info-proyecto1">2021</p>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/titulo-javascript.png" alt="Titulo JavaScript">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <p data-section="proyectos" data-value="info-proyecto2">2021</p>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/titulo-react.png" alt="Titulo React">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <p data-section="proyectos" data-value="info-proyecto3">2022</p>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/titulo-python.png" alt="Titulo Python">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <p data-section="proyectos" data-value="info-proyecto4">2022</p>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/titulo-testing.png" alt="Titulo Testing">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <p data-section="proyectos" data-value="info-proyecto5">2022</p>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-8df44b9c-f8af-4b19-843f-31493ff0742a.jpg" alt="Titulo Jenkins">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <p data-section="proyectos" data-value="info-proyecto6">2022</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- Proyectos -->
+            <section class="proyectos" id="proyectos">
+                <h1 data-section="proyectos" data-value="title">Algunos de mis proyectos...</h1>
+
+                <img src="./assets/images/flores.png" alt="Decoración flores" class="puntos1-proyectos">
+                <img src="./assets/images/flores.png" alt="Decoración flores" class="puntos2-proyectos">
+
+                <div class="cards_container--proyectos">
+                    <div class="cards--proyectos" data-aos="zoom-in-up"
+                        data-aos-anchor-placement="center-bottom">
+                        <div class="container_imgCard--proyectos">
+                            <img src="./assets/images/moov.png" alt="Proyecto: Moov">
+                        </div>
+
+                        <div class="container_textCard--proyectos">
+                            <h2 data-section="proyectos" data-value="title-proyecto1">Moov</h2>
+                            <p data-section="proyectos" data-value="info-proyecto1">Proyecto realizado para el curso de
+                                backend de Coderhouse, en el cual implementé MERN stack.</p>
+                        </div>
+
+                        <div class="container_btn--proyectos">
+                            <a href="https://my-moov.herokuapp.com" target="_blank">
+                                <button class="btn_demo">DEMO
+                                </button>
+                            </a>
+
+                            <a href="https://github.com/FlorcitaHnatiuk/ecommerce-mern-redux" target="_blank">
+                                <button class="btn_repo">REPO
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cards--proyectos" data-aos="zoom-in-up"
+                        data-aos-anchor-placement="center-bottom">
+                        <div class="container_imgCard--proyectos">
+                            <img src="./assets/images/drumkit.png" alt="Proyecto: Drum kit">
+                        </div>
+
+                        <div class="container_textCard--proyectos">
+                            <h2 data-section="proyectos" data-value="title-proyecto2">Drum kit</h2>
+                            <p data-section="proyectos" data-value="info-proyecto2">Mini proyecto de simulación de una
+                                batería, en la que podrás usar tanto las teclas correspondientes a cada letra como hacer
+                                click en la pantalla.</p>
+                        </div>
+
+                        <div class="container_btn--proyectos">
+                            <a href="https://drum-theta.vercel.app/" target="_blank">
+                                <button class="btn_demo">DEMO
+                                </button>
+                            </a>
+
+                            <a href="https://github.com/FlorcitaHnatiuk/drum" target="_blank">
+                                <button class="btn_repo">REPO
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cards--proyectos" data-aos="zoom-in-up"
+                        data-aos-anchor-placement="center-bottom">
+                        <div class="container_imgCard--proyectos">
+                            <img src="./assets/images/simonsays.png" alt="Proyecto: Simon Says">
+                        </div>
+
+                        <div class="container_textCard--proyectos">
+                            <h2 data-section="proyectos" data-value="title-proyecto3">Simon Says</h2>
+                            <p data-section="proyectos" data-value="info-proyecto3">Juego para ejercitar la memoria
+                                realizado en Javascript.</p>
+                        </div>
+
+                        <div class="container_btn--proyectos">
+                            <a href="https://simonsays-two.vercel.app/" target="_blank">
+                                <button class="btn_demo">
+                                    DEMO
+                                </button>
+                            </a>
+
+                            <a href="https://github.com/FlorcitaHnatiuk/simonsays" target="_blank">
+                                <button class="btn_repo">
+                                    REPO
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cards--proyectos" data-aos="zoom-in-up"
+                        data-aos-anchor-placement="center-bottom">
+                        <div class="container_imgCard--proyectos">
+                            <img src="./assets/images/qhipa.png" alt="Proyecto: Qhipa Verde">
+                        </div>
+
+                        <div class="container_textCard--proyectos">
+                            <h2 data-section="proyectos" data-value="title-proyecto4">Qhipa verde</h2>
+                            <p data-section="proyectos" data-value="info-proyecto4">Este proyecto está realizado en
+                                React y lo realicé junto con un compañero gracias a que ambos quedamos en el Top 10 en
+                                Coderhouse.</p>
+                        </div>
+
+                        <div class="container_btn--proyectos">
+                            <a href="https://qhipa-verde-nine.vercel.app/" target="_blank">
+                                <button class="btn_demo">
+                                    DEMO
+                                </button>
+                            </a>
+
+                            <a href="https://github.com/FlorcitaHnatiuk/Qhipa_verde_reactJS" target="_blank">
+                                <button class="btn_repo">
+                                    REPO
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cards--proyectos" data-aos="zoom-in-up"
+                        data-aos-anchor-placement="center-bottom">
+                        <div class="container_imgCard--proyectos">
+                            <img src="./assets/images/tbagente.png" alt="Proyecto: TB Agente Comercial">
+                        </div>
+
+                        <div class="container_textCard--proyectos">
+                            <h2 data-section="proyectos" data-value="title-proyecto5">TB Agente Comercial</h2>
+                            <p data-section="proyectos" data-value="info-proyecto5">Proyecto realizado junto con un
+                                compañero por quedar dentro del Top 10 en Coderhouse, en base a un diseño UX/UI que se
+                                nos brindó.</p>
+                        </div>
+
+                        <div class="container_btn--proyectos">
+                            <a href="https://tb-agente-comercial.vercel.app/" target="_blank">
+                                <button class="btn_demo">
+                                    DEMO
+                                </button>
+                            </a>
+
+                            <a href="https://github.com/FlorcitaHnatiuk/TB-Agente-Comercial" target="_blank">
+                                <button class="btn_repo">
+                                    REPO
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cards--proyectos" data-aos="zoom-in-up"
+                        data-aos-anchor-placement="center-bottom">
+                        <div class="container_imgCard--proyectos">
+                            <img src="./assets/images/lavineria.png" alt="Proyecto: La vinería">
+                        </div>
+
+                        <div class="container_textCard--proyectos">
+                            <h2 data-section="proyectos" data-value="title-proyecto6">La vinería</h2>
+                            <p data-section="proyectos" data-value="info-proyecto6">Mi primer proyecto en ReactJS
+                                realizado para el curso en Coderhouse.</p>
+                        </div>
+
+                        <div class="container_btn--proyectos">
+                            <a href="https://ecommerce-omega-ten.vercel.app/" target="_blank">
+                                <button class="btn_demo">
+                                    DEMO
+                                </button>
+                            </a>
+
+                            <a href="https://github.com/FlorcitaHnatiuk/ecommerce" target="_blank">
+                                <button class="btn_repo">
+                                    REPO
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/florenciahnatiuk/" target="_blank">
+                    <img src="./assets/images/logo-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/FlorcitaHnatiuk" target="_blank">
+                    <img src="./assets/images/logo-gh.png" alt="GitHub">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Coded with</span>
+                <img src="./assets/images/icono-corazon.png" alt="Corazón">
+                <span>by</span>
+                <span>Flor Hnatiuk</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

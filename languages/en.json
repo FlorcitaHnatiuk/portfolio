@@ -1,0 +1,39 @@
+{
+    "menu": {
+        "item2": "About me",
+        "item3": "Skills",
+        "item5": "Projects"
+    },
+
+    "home": {
+        "home_text-1": "Hi! I'm",
+        "home_text-3": "Full stack Web Developer",
+        "parrafo-info": "I'm a programming student and I want you to know me a little!",
+        "cv_button": "Download CV"
+    },
+
+    "sobre-mi": {
+        "title": "About me",
+        "texto_sobreMi": "In 2021, the world of programming intrigued me and I began to study self-taught. After a while I realized that I loved it! Two years after choosing this path, I am looking for a job that allows me to continue learning, gain experience and strengthen my professional development. I am an empathetic, enterprising and proactive person, with skills that make me enjoy teamwork. I am responsible and persevering, and I always seek to improve myself."
+    },
+
+    "habilidades": {
+        "title": "Skills"
+    },
+
+    "proyectos": {
+        "title": "Projects",
+        "title-proyecto1": "Moov",
+        "info-proyecto1": "Project created for backend course at Coderhouse, in which I implemented MERN stack",
+        "title-proyecto2": "Drum kit",
+        "info-proyecto2": "Tiny project in which I created a simulating drum kit, where you can play it either with the keyboard or by clicking at the screen.",
+        "title-proyecto3": "Symon says",
+        "info-proyecto3": "A memorie training game.",
+        "title-proyecto4": "Green Qhipa",
+        "info-proyecto4": "Project created with React Js with a partner, thanks to being at Top 10 at Coderhouse.",
+        "title-proyecto5": "TB commercial Agent",
+        "info-proyecto5": "Project created with React Js with a partner, thanks to being at Top 10 at Coderhouse, with a UX/UI design that was given to us.",
+        "title-proyecto6": "The Winery",
+        "info-proyecto6": "This is my first react app."
+    }
+}
