@@ -502,7 +502,6 @@ span+span {
 }
 
 .cards_container--proyectos {
-    margin: 5rem; 
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
