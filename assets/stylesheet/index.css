@@ -397,8 +397,6 @@ span+span {
     font-family: 'Karla', sans-serif;
     font-size: 1.5rem;
     letter-spacing: .1rem;
-    white-space: pre-line;
-    text-align: justify;
     line-height: 2.2rem;
 }
 
